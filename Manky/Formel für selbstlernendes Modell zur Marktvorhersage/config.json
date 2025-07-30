@@ -1,0 +1,55 @@
+{
+  "system": {
+    "log_level": "INFO",
+    "log_file": "./logs/system.log",
+    "data_directory": "./data",
+    "cache_directory": "./cache",
+    "backup_directory": "./backups"
+  },
+  "api": {
+    "rate_limit_interval": 2.0,
+    "cache_duration": 300,
+    "timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 5
+  },
+  "prediction": {
+    "min_confidence": 0.3,
+    "min_data_quality": 0.4,
+    "max_prediction_age": 3600,
+    "supported_symbols": [
+      "BTC-USD",
+      "ETH-USD", 
+      "SOL-USD",
+      "ADA-USD",
+      "DOGE-USD",
+      "AVAX-USD",
+      "DOT-USD",
+      "LINK-USD"
+    ]
+  },
+  "dashboard": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "debug": false,
+    "auto_refresh": 60,
+    "auto_start": false
+  },
+  "monitoring": {
+    "health_check_interval": 300,
+    "performance_log_interval": 900,
+    "backup_interval": 3600,
+    "alert_thresholds": {
+      "api_error_rate": 0.1,
+      "prediction_accuracy": 0.4,
+      "memory_usage_mb": 100
+    }
+  },
+  "output": {
+    "export_format": "json",
+    "export_directory": "./exports",
+    "retention_days": 30,
+    "compress_old_files": true
+  }
+}
+

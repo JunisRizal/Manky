@@ -1,0 +1,102 @@
+{
+  "timestamp": 1753834762.4875581,
+  "predictions": {
+    "BTC-USD": {
+      "symbol": "BTC-USD",
+      "current_price": 117951.703125,
+      "predicted_change": 0,
+      "target_price": 117951.703125,
+      "confidence": 1.0,
+      "uncertainty": 0.07518862733923241,
+      "method": "minimal_scientific",
+      "features_used": [
+        "momentum",
+        "trend",
+        "volatility",
+        "volume_trend",
+        "hour_cycle",
+        "day_cycle",
+        "relative_position"
+      ],
+      "data_quality": 0.8999999999999999
+    },
+    "ETH-USD": {
+      "symbol": "ETH-USD",
+      "current_price": 3790.046142578125,
+      "predicted_change": 0,
+      "target_price": 3790.046142578125,
+      "confidence": 1.0,
+      "uncertainty": 0.07524352997592189,
+      "method": "minimal_scientific",
+      "features_used": [
+        "momentum",
+        "trend",
+        "volatility",
+        "volume_trend",
+        "hour_cycle",
+        "day_cycle",
+        "relative_position"
+      ],
+      "data_quality": 0.8999999999999999
+    },
+    "SOL-USD": {
+      "symbol": "SOL-USD",
+      "current_price": 181.20327758789062,
+      "predicted_change": 0,
+      "target_price": 181.20327758789062,
+      "confidence": 0.9252222404692597,
+      "uncertainty": 0.07529281093452163,
+      "method": "minimal_scientific",
+      "features_used": [
+        "momentum",
+        "trend",
+        "volatility",
+        "volume_trend",
+        "hour_cycle",
+        "day_cycle",
+        "relative_position"
+      ],
+      "data_quality": 0.8999999999999999
+    }
+  },
+  "system_summary": {
+    "timestamp": 1753834762.4874823,
+    "total_symbols": 3,
+    "active_predictors": 3,
+    "predictors": {
+      "BTC-USD": {
+        "total_predictions": 0,
+        "model_parameters": {
+          "momentum_weight": 0.3,
+          "volatility_weight": 0.2,
+          "volume_weight": 0.1,
+          "time_weight": 0.1,
+          "trend_weight": 0.3
+        },
+        "min_confidence": 0.3
+      },
+      "ETH-USD": {
+        "total_predictions": 0,
+        "model_parameters": {
+          "momentum_weight": 0.3,
+          "volatility_weight": 0.2,
+          "volume_weight": 0.1,
+          "time_weight": 0.1,
+          "trend_weight": 0.3
+        },
+        "min_confidence": 0.3
+      },
+      "SOL-USD": {
+        "total_predictions": 0,
+        "model_parameters": {
+          "momentum_weight": 0.3,
+          "volatility_weight": 0.2,
+          "volume_weight": 0.1,
+          "time_weight": 0.1,
+          "trend_weight": 0.3
+        },
+        "min_confidence": 0.3
+      }
+    }
+  }
+}
